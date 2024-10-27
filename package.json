@@ -1,0 +1,15 @@
+{
+  "name": "cobalt-tools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node register.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0"
+  }
+}

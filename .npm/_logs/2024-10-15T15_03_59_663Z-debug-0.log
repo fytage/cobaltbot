@@ -1,0 +1,66 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.0
+2 info using node@v20.18.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm install
+7 verbose argv "install"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2024-10-15T15_03_59_663Z-
+9 verbose logfile /home/container/.npm/_logs/2024-10-15T15_03_59_663Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly packumentCache heap:271581184 maxSize:67895296 maxEntrySize:33947648
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@discordjs/builders': [ '1.9.0' ],
+15 silly audit   'discord-api-types': [ '0.37.97', '0.37.83', '0.37.100' ],
+15 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+15 silly audit   '@discordjs/formatters': [ '0.5.0' ],
+15 silly audit   '@discordjs/rest': [ '2.4.0' ],
+15 silly audit   '@discordjs/util': [ '1.1.1' ],
+15 silly audit   '@discordjs/ws': [ '1.1.1' ],
+15 silly audit   '@sapphire/async-queue': [ '1.5.3' ],
+15 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+15 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+15 silly audit   '@types/node': [ '22.7.4' ],
+15 silly audit   '@types/ws': [ '8.5.12' ],
+15 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.6' ],
+15 silly audit   axios: [ '0.21.4' ],
+15 silly audit   'discord.js': [ '14.16.3' ],
+15 silly audit   dotenv: [ '10.0.0' ],
+15 silly audit   'fast-deep-equal': [ '3.1.3' ],
+15 silly audit   'follow-redirects': [ '1.15.9' ],
+15 silly audit   lodash: [ '4.17.21' ],
+15 silly audit   'lodash.snakecase': [ '4.1.1' ],
+15 silly audit   'magic-bytes.js': [ '1.10.0' ],
+15 silly audit   'ts-mixer': [ '6.0.4' ],
+15 silly audit   tslib: [ '2.7.0' ],
+15 silly audit   undici: [ '6.19.8' ],
+15 silly audit   'undici-types': [ '6.19.8' ],
+15 silly audit   ws: [ '8.18.0' ]
+15 silly audit }
+16 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 215ms
+17 silly audit report {
+17 silly audit report   axios: [
+17 silly audit report     {
+17 silly audit report       id: 1097679,
+17 silly audit report       url: 'https://github.com/advisories/GHSA-wf5p-g6vw-rhxx',
+17 silly audit report       title: 'Axios Cross-Site Request Forgery Vulnerability',
+17 silly audit report       severity: 'moderate',
+17 silly audit report       vulnerable_versions: '>=0.8.1 <0.28.0',
+17 silly audit report       cwe: [Array],
+17 silly audit report       cvss: [Object]
+17 silly audit report     }
+17 silly audit report   ]
+17 silly audit report }
+18 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+19 http fetch GET 200 https://registry.npmjs.org/axios 43ms (cache revalidated)
+20 silly packumentCache corgi:https://registry.npmjs.org/axios set size:217819 disposed:false
+21 verbose cwd /home/container
+22 verbose os Linux 6.1.0-11-amd64
+23 verbose node v20.18.0
+24 verbose npm  v10.9.0
+25 verbose exit 0
+26 info ok
